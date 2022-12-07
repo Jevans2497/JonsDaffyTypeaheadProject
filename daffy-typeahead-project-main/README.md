@@ -26,7 +26,7 @@ Miscellaneous:
 - For the sake of time and effort, I did not test or verify that this app is accessible. If this were a real app, it would be worthwhile to test all of the UI to make sure Voiceover and other accessibility elements are working properly.
 
 **Security/Reliability**: 
-- Security: Since the user does not have the ability to make any post request, there is little security risk in this app. Since API calls are rate limited, there is the potential that a user could purposely make a large number of requests and make API calls impossible.
+- Security: Since the user does not have the ability to make any post requests, there is little security risk in this app. The main threat I forsee is that with API calls being rate limited, there is the potential that a user could purposely make a large number of requests and invalidate our key.
 
 -  Reliability: Since we're relying on the TMDb API for pretty much everything, if it goes down, the app is obviously non-functional. There also could be issues with the account/API Key. I implemented a cache at one point but removed it after learning that URLSessionDataTask automatically caches requests. At the very least, if there are connectivity issues, the user should be able to see the default popular movies list assuming they've opened the app recently. We could also store the popular movies response every time it's queried so that assuming the user has used the app at least once, something should appear.  
 
