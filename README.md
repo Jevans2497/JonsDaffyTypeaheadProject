@@ -10,7 +10,7 @@ Asynchronous Image Loading:
 
 I struggled at first with asynchronously loading images in the MovieResultsViewControlller tableview. I worked through an issue where an image would be set correctly, but then another API call would finish and set an invalid image. I noticed that popular movies seemed to return their images more quickly than less popular ones, which makes sense given that users are more likely to query popular movies. 
 
-The biggest improvement I could make to this project would be to clean up my approach to asynchronous image loading -- my approach works, but I'm not sure that it is techincally the "correct" approach. 
+The biggest improvement I could make to this project would be to clean up my approach to asynchronous image loading as I found my solution hacky and unreliable. 
 
 The solution I came up with consists of two main components:
 
