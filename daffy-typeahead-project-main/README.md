@@ -7,7 +7,6 @@ To be totally honest, I found this take home interview to be a bit more challeng
 **Biggest Challenges**
 
 - I struggled deeply with asynchronously loading images in the MovieResultsViewControlller tableview. I kept running into an issue where an image would be set correctly and then another api call would finish and set an invalid image. I noticed that it seemed to be the case that popular movies would return their images quickly while less popular ones would take longer which makes sense given that users are more likely to query popular movies. See how I fixed this issue below in "What could be improved"
-- 
 
 **What could be improved**
 
