@@ -4,10 +4,6 @@
 
 To be totally honest, I found this take home interview to be a bit more challenging than I expected. Most of my Swift networking experience has been self taught so I spent more time than I'd like to admit getting the API and image loading working correctly. Despite the learning curve, I feel like I grew a ton from working on this and found it to be really fun. I focused more on getting the key components of the app working correctly instead of adding a bunch of additional features due to time constraints so it may seem a bit basic but (hopefully) everything works as expected.    
 
-**Biggest Challenges**
-
-- I struggled deeply with asynchronously loading images in the MovieResultsViewControlller tableview. I kept running into an issue where an image would be set correctly and then another api call would finish and set an invalid image. I noticed that it seemed to be the case that popular movies would return their images quickly while less popular ones would take longer which makes sense given that users are more likely to query popular movies. See how I fixed this issue below in "What could be improved"
-
 **What could be improved**
 
 Asynchronous Image Loading:
