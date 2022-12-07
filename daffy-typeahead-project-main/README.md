@@ -24,7 +24,7 @@ Miscellaneous Other Improvements:
 - I am not a UI designer, but the app is definitely very basic and could look a lot better. 
 - I chose to use Storyboard because I find it fast and easy for solo projects. Ideally if this project were to scale, we would want all UI built programmatically. 
 
-## Detailed Project Overview:
+## Detailed Project Considerations:
 
 Here I will outline various aspects that I considered while implementing this project, including accessibility, security, reliability, scalability, maintainability, and testing.
 
